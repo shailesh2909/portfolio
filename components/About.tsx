@@ -38,7 +38,7 @@ export default function About() {
           <AnimatedSection delay={0.2}>
             <div className="prose prose-invert max-w-none">
               <p className="text-lg text-foreground-muted leading-relaxed mb-6">
-                I'm currently pursuing Electronics and Telecommunication Engineering at SCTR's Pune Institute 
+                I&apos;m currently pursuing Electronics and Telecommunication Engineering at SCTR&apos;s Pune Institute 
                 of Computer Technology with a CGPA of 8.32. My journey started at Government Polytechnic Khamgaon, 
                 where I graduated with 91.94% in Computer Science and Engineering, building a strong foundation 
                 in both hardware and software.
@@ -47,13 +47,13 @@ export default function About() {
                 I specialize in Android development, AI-powered web applications, and machine learning solutions. 
                 Recently, I was shortlisted for Adobe Hackathon 2025 Round 2, where I built an advanced Document 
                 Intelligence Engine using NLP and semantic search. My final year diploma project, VitalNex, was an 
-                innovative Android app helping students and travelers find essential services. I've built MediPlus, 
+                innovative Android app helping students and travelers find essential services. I&apos;ve built MediPlus, 
                 an AI-powered telemedicine platform with disease prediction using Random Forest ML and doctor verification, 
                 and EduMark, a smart attendance management system with Next.js and Firebase.
               </p>
               <p className="text-lg text-foreground-muted leading-relaxed">
-                When I'm not coding, you'll find me exploring design, photography, and cinematics. I ranked 
-                1st in the Cyber Security Workshop Quiz at Pursuit 2023, and I'm always eager to learn new 
+                When I&apos;m not coding, you&apos;ll find me exploring design, photography, and cinematics. I ranked 
+                1st in the Cyber Security Workshop Quiz at Pursuit 2023, and I&apos;m always eager to learn new 
                 technologies and contribute to innovative projects.
               </p>
             </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
@@ -26,6 +26,14 @@ export default function ImageLightbox({
     setCurrentIndex(initialIndex);
   }, [initialIndex]);
 
+  const nextImage = useCallback(() => {
+    setCurrentIndex((prev) => (prev + 1) % images.length);
+  }, [images.length]);
+
+  const previousImage = useCallback(() => {
+    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+  }, [images.length]);
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!isOpen) return;
@@ -37,7 +45,7 @@ export default function ImageLightbox({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen, currentIndex]);
+  }, [isOpen, nextImage, previousImage, onClose]);
 
   // Prevent body scroll when lightbox is open
   useEffect(() => {
@@ -50,14 +58,6 @@ export default function ImageLightbox({
       document.body.style.overflow = 'unset';
     };
   }, [isOpen]);
-
-  const nextImage = () => {
-    setCurrentIndex((prev) => (prev + 1) % images.length);
-  };
-
-  const previousImage = () => {
-    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
-  };
 
   if (!isOpen) return null;
 

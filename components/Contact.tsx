@@ -37,8 +37,8 @@ export default function Contact() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-accent-cyan to-accent-violet mx-auto mb-6" />
             <p className="text-lg text-foreground-muted max-w-2xl mx-auto">
-              I'm always open to discussing new projects, creative ideas, or
-              opportunities to be part of your visions. Let's build something amazing
+              I&apos;m always open to discussing new projects, creative ideas, or
+              opportunities to be part of your visions. Let&apos;s build something amazing
               together!
             </p>
           </div>
