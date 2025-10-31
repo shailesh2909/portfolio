@@ -100,7 +100,7 @@ export default function Projects() {
         "/images/portfolio-5.jpg", // Experience section
         "/images/portfolio-6.jpg", // Full page view
       ],
-      liveUrl: "https://shailesh-portfolio.vercel.app",
+      liveUrl: "https://portfolio-tkeh.vercel.app/",
       githubUrl: "https://github.com/shailesh2909/portfolio",
     },
   ];

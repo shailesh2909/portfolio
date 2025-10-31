@@ -10,13 +10,13 @@ export default function Contact() {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/shaileshsuryawanshi",
+      url: "https://github.com/shailesh2909",
       color: "hover:text-accent-cyan",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://www.linkedin.com/in/shailesh-suryawanshi",
+      url: "https://www.linkedin.com/in/shailesh-suryawanshi-6989492a1/",
       color: "hover:text-accent-cyan",
     },
     {
