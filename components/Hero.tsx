@@ -224,8 +224,8 @@ export default function Hero() {
           className="flex gap-6 justify-center"
         >
           {[
-            { icon: Github, href: "https://github.com/shaileshsuryawanshi", label: "GitHub" },
-            { icon: Linkedin, href: "https://www.linkedin.com/in/shailesh-suryawanshi", label: "LinkedIn" },
+            { icon: Github, href: "https://github.com/shailesh2909", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/shailesh-suryawanshi-6989492a1/", label: "LinkedIn" },
             { icon: Mail, href: "mailto:shaileshsuryawanshi443103@gmail.com", label: "Email" },
           ].map((social) => (
             <motion.a
