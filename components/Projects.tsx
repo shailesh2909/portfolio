@@ -84,7 +84,7 @@ export default function Projects() {
         "/images/mediplus-13.jpg", // Workflow Diagram
       ],
       liveUrl: "https://mediplus-1-h3zu.onrender.com/",
-      githubUrl: "https://github.com/shailesh2909/MEDIPLUS",
+      githubUrl: "https://github.com/sarveshh77/MEDIPLUS",
       featured: true,
     },
     {
